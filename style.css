@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Foundation Code */
+body {
+  font-family: "Inter", sans-serif;
+  background: #fff;
+}
+
+a,
+li {
+  text-decoration: none;
+}
+
+/* Header - NAV */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 10%;
+}
+
+.logo h1 {
+  font-size: 2.125em;
+  font-weight: 700;
+  color: #0b9c1a;
+  cursor: pointer;
+}
+
+/* nav */
+nav a {
+  text-decoration: none;
+  margin-left: 2rem;
+  color: #000;
+  font-size: 1rem;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #097c14;
+}
+
+/* Under-line */
+hr {
+  background: #dbdbdb;
+  border: none;
+  height: 1px;
+}
+
+/* Main Text Section */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3.325rem 10%;
+}
+
+main h1,
+p,
+a {
+  margin-bottom: 1rem;
+}
+main h1 {
+  font-size: 3.825rem;
+  font-weight: 800;
+  letter-spacing: -2px;
+}
+
+main p {
+  font-size: 1.225rem;
+  font-weight: 400;
+  max-width: 35em;
+}
+
+main a {
+  margin-top: 0.555rem;
+  text-decoration: none;
+  color: #fff;
+  background: #0b9c1a;
+  padding: 0.825rem 2rem;
+  transition: background 0.2s ease;
+}
+
+main a:hover {
+  background: #097914;
+}
+
+/* Merch - Products */
+section {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 3.825rem;
+  font-weight: 800;
+  letter-spacing: -2px;
+  margin-bottom: 1em;
+}
+
+section img {
+  width: 400px;
+  height: 600px;
+}
+
+.row-merch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.col-merch {
+  margin: 1rem;
+  transition: translate 0.3s;
+}
+
+/* Hover Merch */
+.col-merch:hover {
+  translate: 0 -1rem;
+}
+
+/*MAIN PRODUCT SECTION*/
+
+/* Product Buy */
+.container-product {
+  padding: 5rem 10%;
+}
+
+.product-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-description {
+  border: 1px solid #ddd;
+  padding: 2em 3em;
+}
+
+.product-price {
+  color: #0b9c1a;
+  font-size: 1.6rem;
+}
+
+.product-price,
+.product-description h1 {
+  display: inline-block;
+  font-weight: 700;
+}
+
+.product-pic img {
+  width: 400px;
+}
+
+/* TITLE DESCRIPTION(TOP) */
+.title-product {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.product-description p {
+  margin-bottom: 1rem;
+}
+
+.button-buy {
+  display: inline-block;
+  margin-top: 2rem;
+  text-decoration: none;
+  color: #fff;
+  background: #0b9c1a;
+  padding: 0.825rem 2rem;
+  transition: background 0.2s ease;
+}
+
+.button-buy:hover {
+  background: #097914;
+}
+
+/* INFORMATION */
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  padding: 2em;
+  text-align: left;
+}
+
+th {
+  color: #097c14;
+  font-weight: 600;
+  font-size: 1.225rem;
+}
+
+td {
+  font-weight: 500;
+}
+
+.table-info {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.col-merch img {
+  width: 400px;
+}
+
+/* Contact Form */
+#fcf-form {
+  display: block;
+}
+
+.fcf-body {
+  margin: 0;
+  font-family: -apple-system, Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+  padding: 30px;
+  padding-bottom: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  max-width: 100%;
+}
+
+.fcf-form-group {
+  margin-bottom: 1rem;
+}
+
+.fcf-input-group {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 100%;
+}
+
+.fcf-form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  outline: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.fcf-form-control:focus {
+  border: 1px solid #313131;
+}
+
+select.fcf-form-control[size],
+select.fcf-form-control[multiple] {
+  height: auto;
+}
+
+textarea.fcf-form-control {
+  font-family: -apple-system, Arial, sans-serif;
+  height: auto;
+}
+
+label.fcf-label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.fcf-btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fcf-btn {
+    transition: none;
+  }
+}
+
+.fcf-btn:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+.fcf-btn:focus,
+.fcf-btn.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.fcf-btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.fcf-btn-primary:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.fcf-btn-primary:focus,
+.fcf-btn-primary.focus {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.fcf-btn-lg,
+.fcf-btn-group-lg > .fcf-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+}
+
+.fcf-btn-block {
+  display: block;
+  width: 100%;
+}
+
+.fcf-btn-block + .fcf-btn-block {
+  margin-top: 0.5rem;
+}
+
+input[type="submit"].fcf-btn-block,
+input[type="reset"].fcf-btn-block,
+input[type="button"].fcf-btn-block {
+  width: 100%;
+}

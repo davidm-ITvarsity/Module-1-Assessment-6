@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ecommerce Store - Contact</title>
+</head>
+<body>
+    <!-- Header with nav links-->
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <h1>Zytex</h1> 
+            </a>  
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <hr>
+<!-- Contact Info And Forms -->
+<main>
+    <h1>Need Help?</h1>
+    <p>Feel free to contact us if you have any problems or questions to ask.</p>
+
+    <!-- <div class="contact-form">
+        <form action="">
+            <label for="email">Enter Email</label>
+            <input type="text" id="email">
+            <label for="Message">Enter a message you would like to ask us</label>
+            <input type="text" id="Message">
+        </form>
+    </div>
+</main> -->
+
+<div id="fcf-form">
+    <h3 class="fcf-h3">Contact us</h3>
+
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+        
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">Your name</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">Your email address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">Your message</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+        </div>
+
+    </form>
+
+    <img src="/images/Contact.svg">
+</div>
+
+
+
+</body>
+</html>
