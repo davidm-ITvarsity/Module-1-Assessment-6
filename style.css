@@ -289,6 +289,7 @@ label.fcf-label {
   margin-bottom: 0.5rem;
 }
 
+/* Form Button */
 .fcf-btn {
   display: inline-block;
   font-weight: 400;
@@ -310,6 +311,7 @@ label.fcf-label {
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+/* Responsive Media Query */
 @media (prefers-reduced-motion: reduce) {
   .fcf-btn {
     transition: none;
@@ -329,22 +331,22 @@ label.fcf-label {
 
 .fcf-btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: #0b9c1a;
+  border-color: #0b9c1a;
 }
 
 .fcf-btn-primary:hover {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
+  background-color: #097914;
+  border-color: #097914;
 }
 
 .fcf-btn-primary:focus,
 .fcf-btn-primary.focus {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
-  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+  background-color: #0b9c1a;
+  border-color: #097914;
+  box-shadow: 0 0 0 0.2rem rgba(38, 255, 49, 0.5);
 }
 
 .fcf-btn-lg,
